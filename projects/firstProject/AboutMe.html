@@ -39,35 +39,20 @@
         font-weight: bold;
     }
 
+    .parallax {
+        background-attachment: fixed;
+        background-position: center;
+        background-repeat: no-repeat;
+        background-size: cover;
+    }
+
     .card-img-top {
         height: 230px;
     }
 </style>
 
 <body data-bs-spy="scroll" data-bs-target=".navbar" data-bs-offset="50">
-    <!-- Carousel -->
-    <div id="riga" class="carousel slide" data-bs-ride="carousel">
-
-        <!-- Indicators/dots -->
-        <div class="carousel-indicators">
-            <button type="button" data-bs-target="#riga" data-bs-slide-to="0" class="active"></button>
-            <button type="button" data-bs-target="#riga" data-bs-slide-to="1"></button>
-            <button type="button" data-bs-target="#riga" data-bs-slide-to="2"></button>
-        </div>
-
-        <!-- The slideshow/carousel -->
-        <div class="carousel-inner">
-            <div class="carousel-item active">
-                <img src="https://media.tacdn.com/media/attractions-content--1x-1/10/7d/50/7a.jpg" class="d-block w-100" style="height: 500px; filter: brightness(60%)">
-            </div>
-            <div class="carousel-item">
-                <img src="https://www.intobaltics.com/wp-content/uploads/2018/10/Latvia-Riga-Black-Heads-House-Depositphotos.jpg" class="d-block w-100" style="height: 500px; filter: brightness(60%)">
-            </div>
-            <div class="carousel-item">
-                <img src="https://static2-viaggi.corriereobjects.it/wp-content/uploads/2024/04/Riga-CItt%C3%A0-Vecchia.jpg" class="d-block w-100" style="height: 500px; filter: brightness(60%)">
-            </div>
-        </div>
-    </div>
+    <img class="d-block w-100 parallax" style="background-image: url('https://media.tacdn.com/media/attractions-content--1x-1/10/7d/50/7a.jpg'); height: 500px; filter: brightness(60%)">
 
     <nav class="navbar navbar-expand-sm bg-dark navbar-dark sticky-top" style="height: 60px">
         <div class="container-fluid">
