@@ -71,197 +71,199 @@
 </script>
 
 <body class="bg-dark">
-    <div class="row">
-        <div id="start" class="container-fluid text-white" style="padding: 0 20px; height: 100vh; background: linear-gradient(rgba(0,0,0,0.5), rgba(0,0,0,0.5)), no-repeat url('https://media4.giphy.com/media/v1.Y2lkPTc5MGI3NjExYTVzMGYydWJ5MTVqanhibGszcTd6Z2xvdTQ2NHNmZXEwamZjbXQ1ciZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/Kecehv8EAC1dTWUnlM/giphy.webp'); background-size: cover">
-            <div class="row" style="height: 100%;">
-                <div class="col-2"></div>
-                <div class="col-8" style="display: flex; align-items: center">
-                    <div class="flex-box align-items-center gap-4" style="margin: auto;">
-                        <h1 class="title" style="text-align: center;">Hey there! Wanna get knowledge about game engines?</h1>
-                        <button class="button-large" onclick="anchorTo('source-engine')">
-                            Of course!
-                        </button>
-                    </div>
-                </div>
-                <div class="col-2"></div>
-            </div>
-        </div>
-        <div id="source-engine" class="container-fluid text-white bg-dark" style="padding:0 20px; height: max(100vh, 900px)">
-            <div class="row" style="height: 100%">
-                <div class="col-4 background" style="background-image: url('https://i.ibb.co/9cBmnhS/Source-2-engine-logo-svg-Convert-Image.png')">
-                </div>
-                <div class="col-8">
-                    <div class="flex-box gap-2" style="padding: 40px 0 10px 0">
-                        <h1>Let's talk about Source 2 Engine.</h1>
-                        <p>Source 2 is a 3D video game engine currently in development by Valve as a successor to Source. It is used in Dota 2, SteamVR Home, Half-Life: Alyx, S&box, Counter-Strike 2, and more.</p>
-                        <p>Source 2 was first made public with the Dota 2 Workshop Tools Alpha in August 6th 2014 and formally announced by Valve in March of 2015 at the Game Developers Conference. It was then implemented into Dota 2 on June 17th 2015. Valve has announced that Source 2 will be released to the public for free, and it will only take money should it be used for commercial products. </p>
-                        <p>The engine is capable of rendering highly complex and well detailed scenes with minimal framerate drops, thanks to its new 64-bit support alongside Vulkan, Direct3D 11, allowing for better multi-core rendering, better graphics and more efficient 3D rendering.</p>
-                    </div>
-
-                    <h2>Game footage</h2>
-                    <!-- Carousel -->
-                    <div id="source-engine-footage" style="box-shadow: black 10px 10px 10px; width: 70%;" class="carousel slide" data-bs-ride="carousel">
-
-                        <!-- Indicators/dots -->
-                        <div class="carousel-indicators">
-                            <button type="button" data-bs-target="#source-engine-footage" data-bs-slide-to="0" class="active"></button>
-                            <button type="button" data-bs-target="#source-engine-footage" data-bs-slide-to="1"></button>
-                            <button type="button" data-bs-target="#source-engine-footage" data-bs-slide-to="2"></button>
+    <div class="container-fluid text-white">
+        <div class="row">
+            <div id="start" class="container-fluid text-white" style="padding: 0 20px; height: 100vh; background: linear-gradient(rgba(0,0,0,0.5), rgba(0,0,0,0.5)), no-repeat url('https://media4.giphy.com/media/v1.Y2lkPTc5MGI3NjExYTVzMGYydWJ5MTVqanhibGszcTd6Z2xvdTQ2NHNmZXEwamZjbXQ1ciZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/Kecehv8EAC1dTWUnlM/giphy.webp'); background-size: cover">
+                <div class="row" style="height: 100%;">
+                    <div class="col-2"></div>
+                    <div class="col-8" style="display: flex; align-items: center">
+                        <div class="flex-box align-items-center gap-4" style="margin: auto;">
+                            <h1 class="title" style="text-align: center;">Hey there! Wanna get knowledge about game engines?</h1>
+                            <button class="button-large" onclick="anchorTo('source-engine')">
+                                Of course!
+                            </button>
                         </div>
-
-                        <!-- The slideshow/carousel -->
-                        <div class="carousel-inner">
-                            <div class="carousel-item active">
-                                <img src="https://developer.valvesoftware.com/w/images/e/e2/Half-Life_Alyx_-_Screenshot_1.jpg" class="d-block w-100" style="height: 350px; filter: brightness(90%)">
-                                <div class="carousel-caption">
-                                    <h3>Half-Life</h3>
-                                </div>
-                            </div>
-                            <div class="carousel-item">
-                                <img src="https://developer.valvesoftware.com/w/images/3/3e/Screenshot_-_CS2_LC_Performance_Test_map.jpg" class="d-block w-100" style="height: 350px; filter: brightness(90%)">
-                                <div class="carousel-caption">
-                                    <h3>Counter-Strike 2</h3>
-                                </div>
-                            </div>
-                            <div class="carousel-item">
-                                <img src="https://developer.valvesoftware.com/w/images/e/e1/Dota_2_-_Screenshot_3.jpg" class="d-block w-100" style="height: 350px; filter: brightness(90%)">
-                                <div class="carousel-caption">
-                                    <h3>Dota 2</h3>
-                                </div>
-                            </div>
-                        </div>
-
-                        <!-- Left and right controls/icons -->
-                        <button class="carousel-control-prev" type="button" data-bs-target="#source-engine-footage" data-bs-slide="prev">
-                            <span class="carousel-control-prev-icon"></span>
-                        </button>
-                        <button class="carousel-control-next" type="button" data-bs-target="#source-engine-footage" data-bs-slide="next">
-                            <span class="carousel-control-next-icon"></span>
-                        </button>
                     </div>
-
-                    <button class="button-medium" onclick="anchorTo('unreal-engine')" style="margin-top: 50px;">
-                        Continue?
-                    </button>
+                    <div class="col-2"></div>
                 </div>
             </div>
-        </div>
-        <div id="unreal-engine" class="container-fluid text-white" style="padding:0 20px; height: max(100vh, 900px); background-color: darkslategray">
-            <div class="row" style="height: 100%">
-                <div class="col-4 background" style="background-size: 70%; background-image: url('https://cdn2.unrealengine.com/ue-logo-stacked-unreal-engine-w-677x545-fac11de0943f.png')">
-                </div>
-                <div class="col-8">
-                    <div class="flex-box gap-2" style="padding: 40px 0 10px 0">
-                        <h1>Now let's talk about Unreal Engine.</h1>
-                        <p>Unreal Engine (UE) is a series of 3D computer graphics game engines developed by Epic Games, first showcased in the 1998 first-person shooter video game Unreal.</p>
-                        <p>Initially developed for PC first-person shooters, it has since been used in a variety of genres of games and has been adopted by other industries, most notably the film and television industry.</p>
-                        <p>Unreal Engine is written in C++ and features a high degree of portability, supporting a wide range of desktop, mobile, console, and virtual reality platforms.</p>
+            <div id="source-engine" class="container-fluid text-white bg-dark" style="padding:0 20px; height: max(100vh, 900px)">
+                <div class="row" style="height: 100%">
+                    <div class="col-4 background" style="background-image: url('https://i.ibb.co/9cBmnhS/Source-2-engine-logo-svg-Convert-Image.png')">
                     </div>
-
-                    <h2>Game footage</h2>
-                    <!-- Carousel -->
-                    <div id="unreal-engine-footage" style="box-shadow: black 10px 10px 10px; width: 70%;" class="carousel slide" data-bs-ride="carousel">
-
-                        <!-- Indicators/dots -->
-                        <div class="carousel-indicators">
-                            <button type="button" data-bs-target="#unreal-engine-footage" data-bs-slide-to="0" class="active"></button>
-                            <button type="button" data-bs-target="#unreal-engine-footage" data-bs-slide-to="1"></button>
-                            <button type="button" data-bs-target="#unreal-engine-footage" data-bs-slide-to="2"></button>
+                    <div class="col-8">
+                        <div class="flex-box gap-2" style="padding: 40px 0 10px 0">
+                            <h1>Let's talk about Source 2 Engine.</h1>
+                            <p>Source 2 is a 3D video game engine currently in development by Valve as a successor to Source. It is used in Dota 2, SteamVR Home, Half-Life: Alyx, S&box, Counter-Strike 2, and more.</p>
+                            <p>Source 2 was first made public with the Dota 2 Workshop Tools Alpha in August 6th 2014 and formally announced by Valve in March of 2015 at the Game Developers Conference. It was then implemented into Dota 2 on June 17th 2015. Valve has announced that Source 2 will be released to the public for free, and it will only take money should it be used for commercial products. </p>
+                            <p>The engine is capable of rendering highly complex and well detailed scenes with minimal framerate drops, thanks to its new 64-bit support alongside Vulkan, Direct3D 11, allowing for better multi-core rendering, better graphics and more efficient 3D rendering.</p>
                         </div>
 
-                        <!-- The slideshow/carousel -->
-                        <div class="carousel-inner">
-                            <div class="carousel-item active">
-                                <img src="https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/2399830/ss_0ce49e629369dbf9e8fba324667167568c05c66f.1920x1080.jpg?t=1717616885" class="d-block w-100" style="height: 350px; filter: brightness(90%)">
-                                <div class="carousel-caption">
-                                    <h3>ARK: Survival Ascended</h3>
+                        <h2>Game footage</h2>
+                        <!-- Carousel -->
+                        <div id="source-engine-footage" style="box-shadow: black 10px 10px 10px; width: 70%;" class="carousel slide" data-bs-ride="carousel">
+
+                            <!-- Indicators/dots -->
+                            <div class="carousel-indicators">
+                                <button type="button" data-bs-target="#source-engine-footage" data-bs-slide-to="0" class="active"></button>
+                                <button type="button" data-bs-target="#source-engine-footage" data-bs-slide-to="1"></button>
+                                <button type="button" data-bs-target="#source-engine-footage" data-bs-slide-to="2"></button>
+                            </div>
+
+                            <!-- The slideshow/carousel -->
+                            <div class="carousel-inner">
+                                <div class="carousel-item active">
+                                    <img src="https://developer.valvesoftware.com/w/images/e/e2/Half-Life_Alyx_-_Screenshot_1.jpg" class="d-block w-100" style="height: 350px; filter: brightness(90%)">
+                                    <div class="carousel-caption">
+                                        <h3>Half-Life</h3>
+                                    </div>
+                                </div>
+                                <div class="carousel-item">
+                                    <img src="https://developer.valvesoftware.com/w/images/3/3e/Screenshot_-_CS2_LC_Performance_Test_map.jpg" class="d-block w-100" style="height: 350px; filter: brightness(90%)">
+                                    <div class="carousel-caption">
+                                        <h3>Counter-Strike 2</h3>
+                                    </div>
+                                </div>
+                                <div class="carousel-item">
+                                    <img src="https://developer.valvesoftware.com/w/images/e/e1/Dota_2_-_Screenshot_3.jpg" class="d-block w-100" style="height: 350px; filter: brightness(90%)">
+                                    <div class="carousel-caption">
+                                        <h3>Dota 2</h3>
+                                    </div>
                                 </div>
                             </div>
-                            <div class="carousel-item">
-                                <img src="https://cdn.vox-cdn.com/thumbor/BL6WCjoYNzNO-BuVxMjrxXODdR8=/1400x788/filters:format(png)/cdn.vox-cdn.com/uploads/chorus_asset/file/23883921/Cover_2.png" class="d-block w-100" style="height: 350px; filter: brightness(90%)">
-                                <div class="carousel-caption">
-                                    <h3>Stray</h3>
-                                </div>
-                            </div>
-                            <div class="carousel-item">
-                                <img src="https://i.pcmag.com/imagery/reviews/00XpAmYpxd6wvLkvIO672zY-5.fit_scale.size_760x427.v1569471329.png" class="d-block w-100" style="height: 350px; filter: brightness(90%)">
-                                <div class="carousel-caption">
-                                    <h3>Fortnite</h3>
-                                </div>
-                            </div>
+
+                            <!-- Left and right controls/icons -->
+                            <button class="carousel-control-prev" type="button" data-bs-target="#source-engine-footage" data-bs-slide="prev">
+                                <span class="carousel-control-prev-icon"></span>
+                            </button>
+                            <button class="carousel-control-next" type="button" data-bs-target="#source-engine-footage" data-bs-slide="next">
+                                <span class="carousel-control-next-icon"></span>
+                            </button>
                         </div>
 
-                        <!-- Left and right controls/icons -->
-                        <button class="carousel-control-prev" type="button" data-bs-target="#unreal-engine-footage" data-bs-slide="prev">
-                            <span class="carousel-control-prev-icon"></span>
-                        </button>
-                        <button class="carousel-control-next" type="button" data-bs-target="#unreal-engine-footage" data-bs-slide="next">
-                            <span class="carousel-control-next-icon"></span>
+                        <button class="button-medium" onclick="anchorTo('unreal-engine')" style="margin-top: 50px;">
+                            Continue?
                         </button>
                     </div>
-
-                    <button class="button-medium" onclick="anchorTo('unity')" style="margin-top: 50px;">
-                        Continue?
-                    </button>
                 </div>
             </div>
-        </div>
-        <div id="unity" class="container-fluid text-white bg-dark" style="padding:0 20px; height: max(100vh, 900px);">
-            <div class="row" style="height: 100%">
-                <div class="col-4 background" style="background-image: url('https://i.ibb.co/chmSsff/U-Logo-White-RGB-1-C-1.png')">
+            <div id="unreal-engine" class="container-fluid text-white" style="padding:0 20px; height: max(100vh, 900px); background-color: darkslategray">
+                <div class="row" style="height: 100%">
+                    <div class="col-4 background" style="background-size: 70%; background-image: url('https://cdn2.unrealengine.com/ue-logo-stacked-unreal-engine-w-677x545-fac11de0943f.png')">
+                    </div>
+                    <div class="col-8">
+                        <div class="flex-box gap-2" style="padding: 40px 0 10px 0">
+                            <h1>Now let's talk about Unreal Engine.</h1>
+                            <p>Unreal Engine (UE) is a series of 3D computer graphics game engines developed by Epic Games, first showcased in the 1998 first-person shooter video game Unreal.</p>
+                            <p>Initially developed for PC first-person shooters, it has since been used in a variety of genres of games and has been adopted by other industries, most notably the film and television industry.</p>
+                            <p>Unreal Engine is written in C++ and features a high degree of portability, supporting a wide range of desktop, mobile, console, and virtual reality platforms.</p>
+                        </div>
+
+                        <h2>Game footage</h2>
+                        <!-- Carousel -->
+                        <div id="unreal-engine-footage" style="box-shadow: black 10px 10px 10px; width: 70%;" class="carousel slide" data-bs-ride="carousel">
+
+                            <!-- Indicators/dots -->
+                            <div class="carousel-indicators">
+                                <button type="button" data-bs-target="#unreal-engine-footage" data-bs-slide-to="0" class="active"></button>
+                                <button type="button" data-bs-target="#unreal-engine-footage" data-bs-slide-to="1"></button>
+                                <button type="button" data-bs-target="#unreal-engine-footage" data-bs-slide-to="2"></button>
+                            </div>
+
+                            <!-- The slideshow/carousel -->
+                            <div class="carousel-inner">
+                                <div class="carousel-item active">
+                                    <img src="https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/2399830/ss_0ce49e629369dbf9e8fba324667167568c05c66f.1920x1080.jpg?t=1717616885" class="d-block w-100" style="height: 350px; filter: brightness(90%)">
+                                    <div class="carousel-caption">
+                                        <h3>ARK: Survival Ascended</h3>
+                                    </div>
+                                </div>
+                                <div class="carousel-item">
+                                    <img src="https://cdn.vox-cdn.com/thumbor/BL6WCjoYNzNO-BuVxMjrxXODdR8=/1400x788/filters:format(png)/cdn.vox-cdn.com/uploads/chorus_asset/file/23883921/Cover_2.png" class="d-block w-100" style="height: 350px; filter: brightness(90%)">
+                                    <div class="carousel-caption">
+                                        <h3>Stray</h3>
+                                    </div>
+                                </div>
+                                <div class="carousel-item">
+                                    <img src="https://i.pcmag.com/imagery/reviews/00XpAmYpxd6wvLkvIO672zY-5.fit_scale.size_760x427.v1569471329.png" class="d-block w-100" style="height: 350px; filter: brightness(90%)">
+                                    <div class="carousel-caption">
+                                        <h3>Fortnite</h3>
+                                    </div>
+                                </div>
+                            </div>
+
+                            <!-- Left and right controls/icons -->
+                            <button class="carousel-control-prev" type="button" data-bs-target="#unreal-engine-footage" data-bs-slide="prev">
+                                <span class="carousel-control-prev-icon"></span>
+                            </button>
+                            <button class="carousel-control-next" type="button" data-bs-target="#unreal-engine-footage" data-bs-slide="next">
+                                <span class="carousel-control-next-icon"></span>
+                            </button>
+                        </div>
+
+                        <button class="button-medium" onclick="anchorTo('unity')" style="margin-top: 50px;">
+                            Continue?
+                        </button>
+                    </div>
                 </div>
-                <div class="col-8">
-                    <div class="flex-box gap-2" style="padding: 40px 0 10px 0">
-                        <h1>And at the end, let's talk about Unity.</h1>
-                        <p>Unity is a cross-platform game engine developed by Unity Technologies, first announced and released in June 2005 at Apple Worldwide Developers Conference as a Mac OS X game engine. The engine has since been gradually extended to support a variety of desktop, mobile, console, augmented reality, and virtual reality platforms. It is particularly popular for iOS and Android mobile game development, is considered easy to use for beginner developers, and is popular for indie game development.</p>
-                        <p>The engine can be used to create three-dimensional (3D) and two-dimensional (2D) games, as well as interactive simulations. The engine has been adopted by industries outside video gaming, such as film, automotive, architecture, engineering, construction, and the United States Armed Forces.</p>
+            </div>
+            <div id="unity" class="container-fluid text-white bg-dark" style="padding:0 20px; height: max(100vh, 900px);">
+                <div class="row" style="height: 100%">
+                    <div class="col-4 background" style="background-image: url('https://i.ibb.co/chmSsff/U-Logo-White-RGB-1-C-1.png')">
                     </div>
-
-                    <h2>Game footage</h2>
-                    <!-- Carousel -->
-                    <div id="unity-footage" style="box-shadow: black 10px 10px 10px; width: 70%;" class="carousel slide" data-bs-ride="carousel">
-
-                        <!-- Indicators/dots -->
-                        <div class="carousel-indicators">
-                            <button type="button" data-bs-target="#unity-footage" data-bs-slide-to="0" class="active"></button>
-                            <button type="button" data-bs-target="#unity-footage" data-bs-slide-to="1"></button>
-                            <button type="button" data-bs-target="#unity-footage" data-bs-slide-to="2"></button>
+                    <div class="col-8">
+                        <div class="flex-box gap-2" style="padding: 40px 0 10px 0">
+                            <h1>And at the end, let's talk about Unity.</h1>
+                            <p>Unity is a cross-platform game engine developed by Unity Technologies, first announced and released in June 2005 at Apple Worldwide Developers Conference as a Mac OS X game engine. The engine has since been gradually extended to support a variety of desktop, mobile, console, augmented reality, and virtual reality platforms. It is particularly popular for iOS and Android mobile game development, is considered easy to use for beginner developers, and is popular for indie game development.</p>
+                            <p>The engine can be used to create three-dimensional (3D) and two-dimensional (2D) games, as well as interactive simulations. The engine has been adopted by industries outside video gaming, such as film, automotive, architecture, engineering, construction, and the United States Armed Forces.</p>
                         </div>
 
-                        <!-- The slideshow/carousel -->
-                        <div class="carousel-inner">
-                            <div class="carousel-item active">
-                                <img src="https://image.api.playstation.com/vulcan/ap/rnd/202103/1023/fSRns2YjZk9MdfZKVKc7e12q.png" class="d-block w-100" style="height: 350px; filter: brightness(90%)">
-                                <div class="carousel-caption">
-                                    <h3>Subnautica</h3>
+                        <h2>Game footage</h2>
+                        <!-- Carousel -->
+                        <div id="unity-footage" style="box-shadow: black 10px 10px 10px; width: 70%;" class="carousel slide" data-bs-ride="carousel">
+
+                            <!-- Indicators/dots -->
+                            <div class="carousel-indicators">
+                                <button type="button" data-bs-target="#unity-footage" data-bs-slide-to="0" class="active"></button>
+                                <button type="button" data-bs-target="#unity-footage" data-bs-slide-to="1"></button>
+                                <button type="button" data-bs-target="#unity-footage" data-bs-slide-to="2"></button>
+                            </div>
+
+                            <!-- The slideshow/carousel -->
+                            <div class="carousel-inner">
+                                <div class="carousel-item active">
+                                    <img src="https://image.api.playstation.com/vulcan/ap/rnd/202103/1023/fSRns2YjZk9MdfZKVKc7e12q.png" class="d-block w-100" style="height: 350px; filter: brightness(90%)">
+                                    <div class="carousel-caption">
+                                        <h3>Subnautica</h3>
+                                    </div>
+                                </div>
+                                <div class="carousel-item">
+                                    <img src="https://oyster.ignimgs.com/mediawiki/apis.ign.com/the-forest/d/d4/002_Splash_TheForest_Wildlife.png?width=640" class="d-block w-100" style="height: 350px; filter: brightness(90%)">
+                                    <div class="carousel-caption">
+                                        <h3>The Forest</h3>
+                                    </div>
+                                </div>
+                                <div class="carousel-item">
+                                    <img src="https://cdn.mos.cms.futurecdn.net/7ZtnUj22n8nqEWGJHYmwRc-1200-80.jpg" class="d-block w-100" style="height: 350px; filter: brightness(90%)">
+                                    <div class="carousel-caption">
+                                        <h3>Lethal Company</h3>
+                                    </div>
                                 </div>
                             </div>
-                            <div class="carousel-item">
-                                <img src="https://oyster.ignimgs.com/mediawiki/apis.ign.com/the-forest/d/d4/002_Splash_TheForest_Wildlife.png?width=640" class="d-block w-100" style="height: 350px; filter: brightness(90%)">
-                                <div class="carousel-caption">
-                                    <h3>The Forest</h3>
-                                </div>
-                            </div>
-                            <div class="carousel-item">
-                                <img src="https://cdn.mos.cms.futurecdn.net/7ZtnUj22n8nqEWGJHYmwRc-1200-80.jpg" class="d-block w-100" style="height: 350px; filter: brightness(90%)">
-                                <div class="carousel-caption">
-                                    <h3>Lethal Company</h3>
-                                </div>
-                            </div>
+
+                            <!-- Left and right controls/icons -->
+                            <button class="carousel-control-prev" type="button" data-bs-target="#unity-footage" data-bs-slide="prev">
+                                <span class="carousel-control-prev-icon"></span>
+                            </button>
+                            <button class="carousel-control-next" type="button" data-bs-target="#unity-footage" data-bs-slide="next">
+                                <span class="carousel-control-next-icon"></span>
+                            </button>
                         </div>
 
-                        <!-- Left and right controls/icons -->
-                        <button class="carousel-control-prev" type="button" data-bs-target="#unity-footage" data-bs-slide="prev">
-                            <span class="carousel-control-prev-icon"></span>
-                        </button>
-                        <button class="carousel-control-next" type="button" data-bs-target="#unity-footage" data-bs-slide="next">
-                            <span class="carousel-control-next-icon"></span>
+                        <button class="button-medium" onclick="anchorTo('start')" style="margin-top: 50px;">
+                            Return?
                         </button>
                     </div>
-
-                    <button class="button-medium" onclick="anchorTo('start')" style="margin-top: 50px;">
-                        Return?
-                    </button>
                 </div>
             </div>
         </div>

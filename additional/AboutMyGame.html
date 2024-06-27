@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
+    <link rel="stylesheet" href="../global.css">
+    <title>My Game</title>
+</head>
+
+<style>
+    .main-image {
+        max-width: 35em;
+        height: 35em;
+        box-shadow: black 10px 10px 10px;
+    }
+
+    .flex-box {
+        display: flex;
+        width: 100%;
+        justify-content: center;
+        flex-direction: column;
+        gap: 20px;
+    }
+</style>
+
+<body class="bg-success">
+    <img class="d-block w-100 parallax" style="background-image: url('https://media.tacdn.com/media/attractions-content--1x-1/10/7d/50/7a.jpg'); height: 500px; filter: brightness(60%)">
+
+    <nav class="navbar navbar-expand-sm bg-dark navbar-dark sticky-top" style="height: 60px">
+        <div class="container-fluid">
+            <ul class="navbar-nav">
+                <li class="nav-item">
+                    <a class="nav-link" href="../index.html">About me</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="../additional/AboutEngines.html">About Engines</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="../tasks/task.html">Task Manager</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="../quiz/quiz.html">Quiz</a>
+                </li>
+            </ul>
+        </div>
+    </nav>
+    <div class="container-fluid text-white">
+        <div class="row">
+            <div class="col-4" style="display: flex; justify-content: center; align-items: center">
+                <img class="main-image" src="https://cdn.sbox.game/org/lfproject/yourturn/thumb/77da1b65-d296-4dfc-8da3-03cb27ade9c8.png" alt="ark">
+            </div>
+            <div class="col-8">
+                <div class="p-5 flex-box">
+                    <h1 class="text-white">Welcome to Your Turn!</h1>
+                    <p class="text-white">Hi! This page was created to showcase gameplay of my game <b>Your Turn</b> that was created by me during Game Jam.</p>
+                    <p class="text-white">
+                        <b>Your Turn</b> is game that was made in Source 2 Engine, and this game is chess, but not quite simple. Plan your moves. Use different tactics and techniques. Use everything the game gives you. And also compete with other players or increase your experience in the game with AI! Your achievements and victories will put you on the list of game leaders.
+                    </p>
+                    <p>Github Link: <a href="https://github.com/TailsXPrower/YourTurn">https://github.com/TailsXPrower/YourTurn</a></p>
+                    <iframe src="https://drive.google.com/file/d/1Y2D7nQ0Wk5Td9n8zZdVgt5-tFUV8d48Z/preview" width="940" height="500" allow="autoplay"></iframe>
+                </div>
+            </div>
+        </div>
+    </div>
+</body>
+</html>
